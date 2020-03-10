@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.dimensions {
+  height: 10vh;
+  margin: auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+.dimension-form {
+  margin-top: 10px;
+}
+.container {
+  text-align: center;
+  box-sizing: border-box;
+}
+.canvas-container {
+  display: inline-block;
+  box-sizing: border-box;
+}
+.layers {
+  position: absolute;
+  left: 84vw;
+  width: 7vw;
+  height: 800px;
+  display: inline-block;
+  background-color: rgb(152, 183, 218);
+  text-align: center;
+}

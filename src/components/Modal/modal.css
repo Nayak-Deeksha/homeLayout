@@ -1,0 +1,46 @@
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.507);
+}
+.backdrop {
+  position: relative;
+  min-width: 500px;
+  width: 500px;
+  padding: 50px 20px;
+  margin: 0 auto;
+  margin-top: 250px;
+  text-align: center;
+  background: rgba(39, 63, 74, 0.513);
+}
+.classboxprnt {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.cls-box {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.close-button {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 32px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  border: none;
+  color: azure;
+  background-color: transparent;
+}
+.close-button:focus {
+  outline: none;
+}

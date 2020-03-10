@@ -1,0 +1,24 @@
+.profile {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  position: fixed;
+  width: 15%;
+  height: 100vh;
+  text-align: center;
+  background-color: #005f6b;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+}
+.profile-picture {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin-top: 110px;
+}
+.signout-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 50px;
+}

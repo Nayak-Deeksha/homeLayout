@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Dashboard {
+  position: relative;
+  background-color: #f4f7f7;
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+}
+.heading {
+  position: fixed;
+  padding: 22px;
+  left: 15%;
+  width: 85%;
+  height: 10%;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #005f6b;
+  color: white;
+}
+.blueprints {
+  position: absolute;
+  width: 85%;
+  top: 10%;
+  left: 15%;
+  display: block;
+}
+.create-blueprint {
+  width: 100%;
+  text-align: center;
+}
+.new-blueprint {
+  width: 20%;
+  margin: 50px auto;
+  padding: 10px;
+  border: 1px solid #046e7c;
+  font-weight: 500;
+  background-color: #046e7c;
+  color: white;
+  letter-spacing: 1.5px;
+}
+.saved-msg {
+  font-size: 34px;
+  font-weight: 500;
+  color: #093e44;
+  margin-bottom: 10px;
+}
+.saved-blueprints {
+  width: 100%;
+  margin: 20px auto;
+  text-align: left;
+  padding: 20px;
+}
+.blueprint {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background-color: #046e7c;
+  color: white;
+  border: 1px solid #046e7c;
+  box-sizing: border-box;
+  margin: 10px;
+}
+.blueprint-text {
+  height: 100%;
+  padding: 35% 0;
+  box-sizing: border-box;
+}
+.blueprint:hover,
+.new-blueprint:hover {
+  background-color: #093e44;
+  cursor: pointer;
+  color: white;
+}
+.page-divider {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px #046e7c;
+}

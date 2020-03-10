@@ -1,0 +1,18 @@
+.home-input {
+  display: block;
+  width: 80%;
+  padding: 10px 20px;
+  margin: 10px auto;
+  border: none;
+}
+.canvas-input {
+  width: 8%;
+  padding: 20px;
+  margin: 10px 10px 0 0;
+  border: none;
+  background: #e4e0e0;
+  box-sizing: border-box;
+  opacity: 0.6;
+  font-size: 14px;
+  font-weight: 600;
+}
